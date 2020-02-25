@@ -1,5 +1,5 @@
 //
-//  FirstViewController.swift
+//  ThirdViewController.swift
 //  CineRate
 //
 //  Created by Darragh Blake on 25/02/2020.
@@ -8,14 +8,11 @@
 
 import UIKit
 
-class FirstViewController: UIViewController {
+class ThirdViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        view.backgroundColor = .systemYellow
+
+        view.backgroundColor = .systemBlue
     }
-
-
 }
-

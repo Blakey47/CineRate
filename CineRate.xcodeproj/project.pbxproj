@@ -15,6 +15,8 @@
 		0201CB632405618F0073A41B /* CineRate.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0201CB612405618F0073A41B /* CineRate.xcdatamodeld */; };
 		0201CB65240561950073A41B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0201CB64240561950073A41B /* Assets.xcassets */; };
 		0201CB68240561950073A41B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0201CB66240561950073A41B /* LaunchScreen.storyboard */; };
+		0201CB70240563420073A41B /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0201CB6F240563420073A41B /* InitialViewController.swift */; };
+		0201CB72240569DB0073A41B /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0201CB71240569DB0073A41B /* ThirdViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		0201CB64240561950073A41B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0201CB67240561950073A41B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0201CB69240561950073A41B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0201CB6F240563420073A41B /* InitialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
+		0201CB71240569DB0073A41B /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +73,8 @@
 				0201CB66240561950073A41B /* LaunchScreen.storyboard */,
 				0201CB69240561950073A41B /* Info.plist */,
 				0201CB612405618F0073A41B /* CineRate.xcdatamodeld */,
+				0201CB6F240563420073A41B /* InitialViewController.swift */,
+				0201CB71240569DB0073A41B /* ThirdViewController.swift */,
 			);
 			path = CineRate;
 			sourceTree = "<group>";
@@ -147,6 +153,8 @@
 				0201CB5D2405618F0073A41B /* SecondViewController.swift in Sources */,
 				0201CB5B2405618F0073A41B /* FirstViewController.swift in Sources */,
 				0201CB572405618F0073A41B /* AppDelegate.swift in Sources */,
+				0201CB72240569DB0073A41B /* ThirdViewController.swift in Sources */,
+				0201CB70240563420073A41B /* InitialViewController.swift in Sources */,
 				0201CB592405618F0073A41B /* SceneDelegate.swift in Sources */,
 				0201CB632405618F0073A41B /* CineRate.xcdatamodeld in Sources */,
 			);
