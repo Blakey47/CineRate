@@ -1,5 +1,5 @@
 //
-//  InitialViewController.swift
+//  SecondViewController.swift
 //  CineRate
 //
 //  Created by Darragh Blake on 25/02/2020.
@@ -8,12 +8,13 @@
 
 import UIKit
 
-class InitialViewController: UIViewController {
+class FavouritesVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        view.backgroundColor = .systemRed
+        
     }
 
+
 }
+

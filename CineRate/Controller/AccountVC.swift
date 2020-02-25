@@ -8,11 +8,10 @@
 
 import UIKit
 
-class ThirdViewController: UIViewController {
+class AccountVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        view.backgroundColor = .systemBlue
+        
     }
 }

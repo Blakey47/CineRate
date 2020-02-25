@@ -1,5 +1,5 @@
 //
-//  SecondViewController.swift
+//  TabBarViewController.swift
 //  CineRate
 //
 //  Created by Darragh Blake on 25/02/2020.
@@ -8,14 +8,11 @@
 
 import UIKit
 
-class SecondViewController: UIViewController {
+class TabBarViewController: UITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+
         
-        view.backgroundColor = .systemGreen
     }
-
-
 }
-
