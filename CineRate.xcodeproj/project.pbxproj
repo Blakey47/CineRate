@@ -9,31 +9,33 @@
 /* Begin PBXBuildFile section */
 		0201CB572405618F0073A41B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0201CB562405618F0073A41B /* AppDelegate.swift */; };
 		0201CB592405618F0073A41B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0201CB582405618F0073A41B /* SceneDelegate.swift */; };
-		0201CB5B2405618F0073A41B /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0201CB5A2405618F0073A41B /* HomeVC.swift */; };
-		0201CB5D2405618F0073A41B /* FavouritesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0201CB5C2405618F0073A41B /* FavouritesVC.swift */; };
+		0201CB5B2405618F0073A41B /* MoviesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0201CB5A2405618F0073A41B /* MoviesVC.swift */; };
+		0201CB5D2405618F0073A41B /* TVShowsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0201CB5C2405618F0073A41B /* TVShowsVC.swift */; };
 		0201CB602405618F0073A41B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0201CB5E2405618F0073A41B /* Main.storyboard */; };
 		0201CB632405618F0073A41B /* CineRate.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0201CB612405618F0073A41B /* CineRate.xcdatamodeld */; };
 		0201CB65240561950073A41B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0201CB64240561950073A41B /* Assets.xcassets */; };
 		0201CB68240561950073A41B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0201CB66240561950073A41B /* LaunchScreen.storyboard */; };
 		0201CB70240563420073A41B /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0201CB6F240563420073A41B /* InitialViewController.swift */; };
-		0201CB72240569DB0073A41B /* AccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0201CB71240569DB0073A41B /* AccountVC.swift */; };
-		0201CB772405A9930073A41B /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0201CB762405A9930073A41B /* TabBarViewController.swift */; };
+		0201CB72240569DB0073A41B /* FavouritesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0201CB71240569DB0073A41B /* FavouritesVC.swift */; };
+		0201CB7C240707FA0073A41B /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0201CB7B240707FA0073A41B /* NetworkManager.swift */; };
+		0201CB7E240709FA0073A41B /* Movies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0201CB7D240709FA0073A41B /* Movies.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0201CB532405618F0073A41B /* CineRate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CineRate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0201CB562405618F0073A41B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0201CB582405618F0073A41B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0201CB5A2405618F0073A41B /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
-		0201CB5C2405618F0073A41B /* FavouritesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesVC.swift; sourceTree = "<group>"; };
+		0201CB5A2405618F0073A41B /* MoviesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesVC.swift; sourceTree = "<group>"; };
+		0201CB5C2405618F0073A41B /* TVShowsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVShowsVC.swift; sourceTree = "<group>"; };
 		0201CB5F2405618F0073A41B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0201CB622405618F0073A41B /* CineRate.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CineRate.xcdatamodel; sourceTree = "<group>"; };
 		0201CB64240561950073A41B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0201CB67240561950073A41B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0201CB69240561950073A41B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0201CB6F240563420073A41B /* InitialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
-		0201CB71240569DB0073A41B /* AccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountVC.swift; sourceTree = "<group>"; };
-		0201CB762405A9930073A41B /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		0201CB71240569DB0073A41B /* FavouritesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesVC.swift; sourceTree = "<group>"; };
+		0201CB7B240707FA0073A41B /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		0201CB7D240709FA0073A41B /* Movies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movies.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 		0201CB552405618F0073A41B /* CineRate */ = {
 			isa = PBXGroup;
 			children = (
+				0201CB782407071D0073A41B /* Managers */,
 				0201CB752405A95E0073A41B /* Controller */,
 				0201CB742405A9590073A41B /* View */,
 				0201CB732405A94D0073A41B /* Model */,
@@ -82,6 +85,7 @@
 		0201CB732405A94D0073A41B /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				0201CB7D240709FA0073A41B /* Movies.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -98,12 +102,19 @@
 			isa = PBXGroup;
 			children = (
 				0201CB6F240563420073A41B /* InitialViewController.swift */,
-				0201CB5A2405618F0073A41B /* HomeVC.swift */,
-				0201CB5C2405618F0073A41B /* FavouritesVC.swift */,
-				0201CB71240569DB0073A41B /* AccountVC.swift */,
-				0201CB762405A9930073A41B /* TabBarViewController.swift */,
+				0201CB5A2405618F0073A41B /* MoviesVC.swift */,
+				0201CB5C2405618F0073A41B /* TVShowsVC.swift */,
+				0201CB71240569DB0073A41B /* FavouritesVC.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		0201CB782407071D0073A41B /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				0201CB7B240707FA0073A41B /* NetworkManager.swift */,
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,11 +188,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0201CB772405A9930073A41B /* TabBarViewController.swift in Sources */,
-				0201CB5D2405618F0073A41B /* FavouritesVC.swift in Sources */,
-				0201CB5B2405618F0073A41B /* HomeVC.swift in Sources */,
+				0201CB7C240707FA0073A41B /* NetworkManager.swift in Sources */,
+				0201CB5D2405618F0073A41B /* TVShowsVC.swift in Sources */,
+				0201CB5B2405618F0073A41B /* MoviesVC.swift in Sources */,
 				0201CB572405618F0073A41B /* AppDelegate.swift in Sources */,
-				0201CB72240569DB0073A41B /* AccountVC.swift in Sources */,
+				0201CB72240569DB0073A41B /* FavouritesVC.swift in Sources */,
+				0201CB7E240709FA0073A41B /* Movies.swift in Sources */,
 				0201CB70240563420073A41B /* InitialViewController.swift in Sources */,
 				0201CB592405618F0073A41B /* SceneDelegate.swift in Sources */,
 				0201CB632405618F0073A41B /* CineRate.xcdatamodeld in Sources */,

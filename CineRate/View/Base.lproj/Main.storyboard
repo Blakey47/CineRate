@@ -11,7 +11,7 @@
         <!--Movies-->
         <scene sceneID="hNz-n2-bh7">
             <objects>
-                <viewController storyboardIdentifier="FirstViewController" id="9pv-A4-QxB" customClass="HomeVC" customModule="CineRate" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="FirstViewController" id="9pv-A4-QxB" customClass="MoviesVC" customModule="CineRate" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tsR-hK-woN">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -188,6 +188,13 @@
                     <tabBarItem key="tabBarItem" title="Movies" image="film" catalog="system" id="acW-dT-cKf">
                         <color key="badgeColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBarItem>
+                    <connections>
+                        <outlet property="popularMovieDescription" destination="LBH-Vh-aKp" id="PiU-RN-5Bp"/>
+                        <outlet property="popularMovieName" destination="Tjy-Px-KfV" id="Iur-kF-dgX"/>
+                        <outlet property="popularMoviePoster" destination="cuV-Go-fTN" id="QGy-vS-yxq"/>
+                        <outlet property="popularMovieRating" destination="MUx-Aw-Vhy" id="FS1-oP-jYN"/>
+                        <outlet property="popularMovieReleaseDate" destination="zWq-Ck-ZCd" id="frs-vF-vV2"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
@@ -196,7 +203,7 @@
         <!--TV Shows-->
         <scene sceneID="wg7-f3-ORb">
             <objects>
-                <viewController id="8rJ-Kc-sve" customClass="FavouritesVC" customModule="CineRate" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="8rJ-Kc-sve" customClass="TVShowsVC" customModule="CineRate" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="QS5-Rx-YEW">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -212,7 +219,7 @@
         <!--Favourites-->
         <scene sceneID="2ce-UU-MIR">
             <objects>
-                <viewController id="uBt-ea-KT2" customClass="AccountVC" customModule="CineRate" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="uBt-ea-KT2" customClass="FavouritesVC" customModule="CineRate" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="nwn-pK-P2Z">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -234,13 +241,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MoviePosterImage" translatesAutoresizingMaskIntoConstraints="NO" id="DRa-aU-JX0">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="806"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="814"/>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LkG-nz-tpo">
-                                <rect key="frame" x="0.0" y="806" width="414" height="90"/>
+                                <rect key="frame" x="0.0" y="814" width="414" height="82"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6xJ-7h-4W3">
-                                        <rect key="frame" x="69.5" y="24.5" width="275" height="41"/>
+                                        <rect key="frame" x="69.5" y="15" width="275" height="41"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sQ1-o5-zLa">
                                                 <rect key="frame" x="0.0" y="5" width="275" height="30"/>
@@ -263,12 +270,12 @@
                                         </constraints>
                                     </view>
                                 </subviews>
-                                <color key="backgroundColor" red="0.72655940060000002" green="0.096160806720000006" blue="0.064238078889999994" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.72303718328475952" green="0.17294758558273315" blue="0.13886809349060059" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstItem="6xJ-7h-4W3" firstAttribute="leading" secondItem="LkG-nz-tpo" secondAttribute="leading" constant="69.5" id="J1g-oA-fH3"/>
                                     <constraint firstAttribute="trailing" secondItem="6xJ-7h-4W3" secondAttribute="trailing" constant="69.5" id="f2Y-bd-uQd"/>
-                                    <constraint firstAttribute="height" constant="90" id="rBb-zE-iRF"/>
-                                    <constraint firstAttribute="bottom" secondItem="6xJ-7h-4W3" secondAttribute="bottom" constant="24.5" id="wYG-kK-iZ5"/>
+                                    <constraint firstItem="6xJ-7h-4W3" firstAttribute="top" secondItem="LkG-nz-tpo" secondAttribute="top" constant="15" id="kQB-qW-fce"/>
+                                    <constraint firstAttribute="height" constant="82" id="rBb-zE-iRF"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -294,12 +301,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="haS-ya-NQQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1075.3623188405797" y="0.0"/>
+            <point key="canvasLocation" x="-782.60869565217399" y="0.0"/>
         </scene>
-        <!--Tab Bar View Controller-->
+        <!--Tab Bar Controller-->
         <scene sceneID="yl2-sM-qoP">
             <objects>
-                <tabBarController storyboardIdentifier="TabBarController" id="49e-Tb-3d3" customClass="TabBarViewController" customModule="CineRate" customModuleProvider="target" sceneMemberID="viewController">
+                <tabBarController storyboardIdentifier="TabBarController" id="49e-Tb-3d3" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" id="W28-zg-YXA">
                         <rect key="frame" x="0.0" y="975" width="768" height="49"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>

@@ -1,5 +1,5 @@
 //
-//  FirstViewController.swift
+//  SecondViewController.swift
 //  CineRate
 //
 //  Created by Darragh Blake on 25/02/2020.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class HomeVC: UIViewController {
+class TVShowsVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -1,5 +1,5 @@
 //
-//  SecondViewController.swift
+//  ThirdViewController.swift
 //  CineRate
 //
 //  Created by Darragh Blake on 25/02/2020.
@@ -14,7 +14,4 @@ class FavouritesVC: UIViewController {
         super.viewDidLoad()
         
     }
-
-
 }
-
